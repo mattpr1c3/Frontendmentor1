@@ -4,22 +4,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} 
 
 :root {
   font-size: 62.5%;
-  --color-dark-cyan: hs1(158, 36%, 37%);
-  --color-darker-cyan: hs1(158, 36%, 12%);
-  --color-cream: hs1(30, 38%, 92%);
-  --color-very-dark-blue: hs1(212, 21%, 14%);
-  --Dark-grayish-blue: hs1(228, 12%, 48%);
-  --white: hs1(0, 0%, 100%);
-  --font-montserrat: "Montserrat", sans-serif;
-  --font-fraunces: "fraunces", serif;
+  --color-dark-cyan: hsl(158, 36%, 37%);
+  --color-darker-cyan: hsl(158, 36%, 12%);
+  --color-cream: hsl(30, 38%, 92%);
+  --color-very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-fraunces: 'fraunces', serif;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1;
   background-color: var(--color-cream);
   display: flex;
